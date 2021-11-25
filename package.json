@@ -18,7 +18,10 @@
     "prettier-eslint-cli": "^5.0.0"
   },
   "peerDependencies": {
+    "@babel/preset-react": "^7.12.5",
     "@rails/webpacker": "> 5"
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "react-refresh": "^0.9.0"
   },
   "repository": {
     "type": "git",
