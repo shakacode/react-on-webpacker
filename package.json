@@ -1,0 +1,42 @@
+{
+  "name": "react-on-webpacker",
+  "version": "0.0.1-beta.0",
+  "description": "A babel preset & a webpacker configuration extension for react",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-shakacode": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "^2.2.1",
+    "prettier-eslint-cli": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@babel/preset-react": "^7.12.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
+    "@rails/webpacker": "> 5"
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "react-refresh": "^0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakacode/react-on-webpacker.git"
+  },
+  "keywords": [
+    "react",
+    "webpacker",
+    "shakacode"
+  ],
+  "author": "Justin Gordon (justin@shakacode.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shakacode/react-on-webpacker/issues"
+  },
+  "homepage": "https://github.com/shakacode/react-on-webpacker#readme"
+}
